@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Guía de Experiencia de Usuario</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="http://www.buenosaires.gob.ar/estilos/BAStrap/css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="http://www.buenosaires.gob.ar/estilos/BAStrap/css/bootstrap-responsive.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">
+
+function urlfoward(){
+if (window.location.href = "http://gcba.github.io/guiaux/")
+{ window.location.href = "http://gcba.github.io/guiaux/index.html" }
+}
+
+</script>
+</head>
+<body onLoad="urlforward()">
+<div class="gcba-fixed-top">
+  <div class="header-gcba">
+    <div class="header-inner">
+      <div class="container">
+        <div id="logo">Buenos Aires Ciudad</div>
+        <h2 class="slogan">En todo estás vos</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <h1>Guía de Experiencia de Usuario</h1>
+  <h2>Objetivos</h2>
+<p>Este documento especifica la línea estética, de usabilidad y de accesibilidad que deberán respetar todos los nuevos desarrollos web y de sistemas de gestión basados en web del Gobierno de la Ciudad de Buenos Aires. Los objetivos son:</p>
+<ul>
+<li>Los sitios web y sistemas de gestión basados en web deben tener una concordancia estética homogénea que se corresponda con el plan gráfico integral del Gobierno de la Ciudad.</li>
+<li>Se debe garantizar que los sitios web y sistemas de gestión basados en web puedan ser usados por la mayor cantidad de usuarios, incluyendo usuarios con limitaciones motrices y tecnológicas.</li>
+</ul>
+<p>Este documento se actualiza periódicamente. Al momento de inicio de cada proyecto se deberá usar la última versión de los lineamientos que esté disponible.</p>
+  
+  
+  <h2>BAStrap / El framework</h2>
+<p>Todo nuevo desarrollo de:</p>
+<ul><li>Sitio web</li>
+<li>Sitio web para plataformas móviles</li>
+<li>Landing page</li>
+<li>Aplicativo interno de Gobierno</li>
+<li>Aplicativo externo de Gobierno</li>
+<p>deberá usar el framework basado en Bootstrap llamado BAstrap.</p>
+<p>
+En el caso de ser imposible el uso de este framework, por imposibilidad técnica por la plataforma, se deberán aplicar los lineamientos de la sección “Proyectos sin BAStrap”. </p>
+
+ 
+<h3>Beneficios de uso de un framework </h3>
+<p>El uso de un framework para todos los sitios del Gobierno tiene muchos beneficios:</p>
+
+<ul><li>Unificar línea estética<br>
+La estética del Gobierno de la Ciudad debe ser homogénea. A través de un framework se puede seguir una misma línea estética sin requerir grandes trabajos de diseño.</li>
+<li>Garantizar un nivel mínimo de usabilidad y accesibilidad<br>
+El framework BAStrap cuenta con muchas características de accesibilidad y usabilidad incorporadas en su código, como avisos de error para formularios, funcionamiento instantáneo en dispositivos móviles, navegación por teclado.</li>
+<li>Optimizar los tiempos de desarrollo<br>
+Al no tener que pensar en cuestiones elementales del diseño, maquetado, y funcionalidades, se pueden concentrar los esfuerzos en el desarrollo.</li>
+<li>Reutilización de componentes y universalidad de recursos<br>
+Todos los componentes que se creen para una plataforma de un sitio de gobierno estarán disponibles para los otros sitios web.</li>
+<li>Mantenimiento universal y actualización simultánea<br>
+Al centralizar los recursos, las actualizaciones y mejoras a cualquier parte del código fuente impactarán automáticamente en todos los desarrollos.</li></ul>
+
+<p>Las áreas podrán desarrollar módulos o estilos sobre el base de GCBAstrap.
+Estos desarrollos deberán ser supervisados y aprobados por la DG de Gobierno Electrónico.
+Los desarrollos deberán cargarse como ampliaciones a GCBAstrap y su código se liberará para poder ser reutilizado por otras áreas del gobierno.</p>
+
+<h2>Proyectos sin BAStrap</h2>
+<p>Los proyectos que no usen BAStrap deberán aplicar la marca del Gobierno de la Ciudad en las siguientes maneras:</p>
+
+<h3>Aplicación de marca</h3>
+<ul><li>Encabezado: Definición de colocación de marca BA Ciudad y “En todo estás vos”</li>
+<li>Aplicación del “BA”</li>
+<li>Aplicación de “Ciudad Verde”</li>
+<li>Definición de uso de marcas de gobierno</li></ul>
+
+Uso de marca:
+En el encabezado o el pie de la página se debe usar el escudo de la ciudad + slogan
+
+
+<h3>Otros</h3>
+
+Estética de botones, formularios, pantallas, etc.
+Tipografía, tamaño mínimo
+Estilo de tablas
+Paleta de colores básica y extendida para errores, verificaciones y otros
+Contraste mínimo
+Formularios, cómo desarrollarlos, labels
+Noun project
+Uso de íconos
+
+<h2>Tono</h2>
+
+
+
+<h2>Usabilidad y accesibilidad</h2>
+
+Requerimientos mínimos de accesibilidad
+
+Proveer texto alternativo en todas las imágenes esenciales. Las imágenes que son solo decorativas no lo requieren.
+Utilizar subtítulos en video
+Contraste mínimo del texto 4.5:1
+El tamaño del texto se debe poder ajustar desde el navegador
+Las páginas deberán funcionar correctamente en escalas de grises
+Las columnas de texto no deben ser mayores de 110 caracteres
+Texto no justificado
+Interlineado mínimo de 1,5
+Espacio entre párrafos mínimo 150% del interlineado
+Los componentes que pueden recibir el foco lo hacen en un orden que preserva su significado y operabilidad
+El usuario puede continuar la actividad sin pérdida de datos cuando expire una sesión autenticada
+Las páginas web no contienen nada que destelle más de tres veces en un segundo
+Los títulos de las páginas deben describir su temática o propósito
+El idioma predeterminado de cada página web será explicitado en el código HTML
+
+Estos lineamientos fueron extraidos de las Pautas de Accesibilidad al Contenido de la Web 2.0 (WCAG20) de la W3C: http://www.sidar.org/traducciones/wcag20/es/
+
+
+  
+</div>
+<footer class="footer">
+  <hr class="footer-ba">
+</footer>
+<script src="http://www.buenosaires.gob.ar/estilos/BAStrap/js/jquery.js"></script> 
+<script src="http://www.buenosaires.gob.ar/estilos/BAStrap/js/bootstrap.min.js"></script>
+</body>
+</html>
