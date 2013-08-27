@@ -1,8 +1,9 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 <title>Guía de Experiencia de Usuario</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="http://www.buenosaires.gob.ar/estilos/BAStrap/ico/favicon.png">
 <link href="http://www.buenosaires.gob.ar/estilos/BAStrap/css/bootstrap.css" rel="stylesheet" media="screen">
 <link href="http://www.buenosaires.gob.ar/estilos/BAStrap/css/bootstrap-responsive.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
@@ -28,6 +29,8 @@ if (window.location.href = "http://gcba.github.io/guiaux/")
   </div>
 </div>
 <div class="container">
+<div class="row">
+<article class="span9">
 <h1>Guía de Experiencia de Usuario</h1>
 <h2>Objetivos</h2>
 <p>Este documento especifica la línea estética, de usabilidad y de accesibilidad que deberán respetar todos los nuevos desarrollos web y de sistemas de gestión basados en web del Gobierno de la Ciudad de Buenos Aires. Los objetivos son:</p>
@@ -45,8 +48,8 @@ if (window.location.href = "http://gcba.github.io/guiaux/")
 <li>Aplicativo interno de Gobierno</li>
 <li>Aplicativo externo de Gobierno</li></ul>
 <p>deberá usar el framework basado en Bootstrap llamado BAstrap: <a href="http://gcba.github.io/BAstrap/">http://gcba.github.io/BAstrap/</a></p>
-<div class="alert">
-  <p> En el caso de ser imposible el uso de este framework, por imposibilidad técnica por la plataforma, se deberán aplicar los lineamientos de la sección <a href="#sinbastrap">Proyectos sin BAStrap</a>. </p>
+<div class="alert alert-info">
+  <p>En el caso de no usar este framework, consensuado con la DG de Gobierno Electrónico, se deberán aplicar los lineamientos de la sección <a href="#sinbastrap">Proyectos sin BAStrap</a>. </p>
 </div>
 <h3>Beneficios de uso de un framework </h3>
 <p>El uso de un framework para todos los sitios del Gobierno tiene muchos beneficios:</p>
@@ -68,32 +71,27 @@ if (window.location.href = "http://gcba.github.io/guiaux/")
 <h2 id="sinbastrap">Proyectos sin BAStrap</h2>
 <p>Los proyectos que no usen BAStrap deberán aplicar la marca del Gobierno de la Ciudad en las siguientes maneras:</p>
 <h3>Aplicación de marca</h3>
-<ul>
-  <li>Encabezado: Definición de colocación de marca BA Ciudad y “En todo estás vos”</li>
-  <li>Aplicación del “BA”</li>
-  <li>Aplicación de “Ciudad Verde”</li>
-  <li>Definición de uso de marcas de gobierno</li>
-</ul>
-Uso de marca:
-    En el encabezado o el pie de la página se debe usar el escudo de la ciudad + slogan
+<h4>Encabezado</h4>
+<p>Se deberá aplicar al inicio de todas las páginas una barra que contenga el escudo de la Ciudad y el lema “En todo estás vos” tal como aparece en esta misma página.</p>
+<h4>Pie</h4>
+<p>Se deberá aplicar al final de todas las páginas una barra que contenga el escudo de la Ciudad enlazando a <a href="http://www.buenosaires.gob.ar">www.buenosaires.gob.ar</a> tal como aparece en esta misma página.</p>
+<h4>Uso de sellos del Gobierno</h4>
+<p>Se aplicarán los sellos “Ciudad Verde”, “Agenda Cultural” o “Red En Todo Estás Vos” en los casos en que el sistema creado esté alineado en alguno de los tres ejes.</p>
 <h3>Otros</h3>
 <ul>
-  <li>Estética de botones, formularios, pantallas, etc.</li>
-  <li>Tipografía, tamaño mínimo</li>
-  <li>Estilo de tablas</li>
-  <li>Paleta de colores básica y extendida para errores, verificaciones y otros</li>
-  <li>Contraste mínimo</li>
-  <li>Formularios, cómo desarrollarlos, labels</li>
-  <li>Noun project</li>
-  <li>Uso de íconos</li>
+  <li>El tamaño mínimo de la tipografía será de 12px para cuerpo de texto y de 10px para anotaciones secundarias.</li>
+  <li>El uso de íconos deberá estar acordado con la DG de Gobierno Electrónico, que guarda un <a href="http://gcba.github.io/iconos/">listado de íconos</a> oficial.</li>
 </ul>
 <h2>Tono</h2>
-<p>&nbsp;</p>
-<h2>Usabilidad y accesibilidad</h2>
-<p>El sitio web deberá estar redactado con lenguaje sencillo. </p>
-<p>&nbsp;</p>
+<p>El tono de comunicación es joven e informal, lo que implica hablar de igual a igual, no ser imperativo, ser auténtico, cercano y directo.</p>
+<p>Se centra la atención sobre los temas importantes. Se elimina la comunicación superflua.</p>
+<p>Los mensajes deben ser principalmente positivos, integradores e inclusivos.</p> 
+<div class="alert alert-info">
+  <p><strong>La excepción: El tono informativo.</strong> El tono informativo y formal se reservará únicamente para comunicaciones de temas muy precisos que requieran extrema claridad en transmitir el mensaje.
+ </p>
+</div>
 <p>Es requisito que las aplicaciones web del Gobierno de la Ciudad se desarrollen respetando los siguientes requerimientos mínimos de accesibilidad: </p>
-<h3>Requerimientos mínimos de accesibilidad </h3>
+<h2>Requerimientos mínimos de accesibilidad </h2>
 <ul>
   <li>Proveer texto alternativo en todas las imágenes esenciales. Las imágenes que son solo decorativas no lo requieren.</li>
   <li>Utilizar subtítulos en video</li>
@@ -114,7 +112,15 @@ Uso de marca:
 </ul>
 <p>Estos lineamientos fueron extraidos de las Pautas de Accesibilidad al Contenido de la Web 2.0 (WCAG20) de la W3C: <a href="http://www.sidar.org/traducciones/wcag20/es/">http://www.sidar.org/traducciones/wcag20/es/</a></p>
 <p>&nbsp;</p>
-</div>
+</article>
+<aside class="span3">
+<h4>Enlaces útiles</h4>
+<ul class="nav nav-tabs nav-stacked"><li><a href="http://www.buenosaires.gob.ar/marca">Manual de marca del Gobierno de la Ciudad</a></li>
+<li><a href="http://www.buenosaires.gob.ar/identidad">Identidad oficial del Gobierno de la Ciudad</a></li>
+</ul>
+
+</aside>
+</div></div>
 <footer class="footer">
   <hr class="footer-ba">
 </footer>
