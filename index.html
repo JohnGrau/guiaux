@@ -2,35 +2,31 @@
 <html lang="es">
 <head>
 <title>Guía de Experiencia de Usuario</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="http://www.buenosaires.gob.ar/estilos/BAStrap/ico/favicon.png">
-<link href="http://www.buenosaires.gob.ar/estilos/BAStrap/css/bootstrap.css" rel="stylesheet" media="screen">
-<link href="http://www.buenosaires.gob.ar/estilos/BAStrap/css/bootstrap-responsive.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<script type="text/javascript">
-
-function urlfoward(){
-if (window.location.href == "http://gcba.github.io/guiaux/")
-{ window.location.href = "http://gcba.github.io/guiaux/index.html" }
-}
-
-</script>
+<link rel="shortcut icon" href="http://www.buenosaires.gob.ar/estilos/bastrap3/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="http://www.buenosaires.gob.ar/estilos/bastrap3/favicon-mobile.png">
+<link rel="stylesheet" href="http://www.buenosaires.gob.ar/estilos/bastrap3/bootstrap.min.css">
+<link rel="stylesheet" href="http://www.buenosaires.gob.ar/estilos/bastrap3/bastrap.css">
 </head>
-<body onLoad="urlforward()">
-<div class="gcba-fixed-top">
-  <div class="header-gcba">
-    <div class="header-inner">
+    <header class="navbar navbar-primary navbar-top">
       <div class="container">
-        <div id="logo">Buenos Aires Ciudad</div>
-        <h2 class="slogan">En todo estás vos</h2>
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <a class="navbar-brand bac-header" href="index.html">Buenos Aires Ciudad</a>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <h5 class="sub-brand">En todo estás vos</h5>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
+    </header>
+    
+<main class="main-container" role="main">
 <div class="container">
 <div class="row">
-<article class="span9">
+<article class="col-md-9">
 <h1>Guía de Experiencia de Usuario</h1>
 <h2>Objetivos</h2>
 <p>Este documento especifica la línea estética, de usabilidad y de accesibilidad que deberán respetar todos los nuevos desarrollos web y de sistemas de gestión basados en web del Gobierno de la Ciudad de Buenos Aires. Los objetivos son:</p>
@@ -113,18 +109,31 @@ if (window.location.href == "http://gcba.github.io/guiaux/")
 <p>Estos lineamientos fueron extraidos de las Pautas de Accesibilidad al Contenido de la Web 2.0 (WCAG20) de la W3C: <a href="http://www.sidar.org/traducciones/wcag20/es/">http://www.sidar.org/traducciones/wcag20/es/</a></p>
 <p>&nbsp;</p>
 </article>
-<aside class="span3">
+<aside class="col-md-3">
 <h4>Enlaces útiles</h4>
 <ul class="nav nav-tabs nav-stacked"><li><a href="http://www.buenosaires.gob.ar/marca">Manual de marca del Gobierno de la Ciudad</a></li>
 <li><a href="http://www.buenosaires.gob.ar/identidad">Identidad oficial del Gobierno de la Ciudad</a></li>
 </ul>
-
 </aside>
-</div></div>
-<footer class="footer">
-  <hr class="footer-ba">
-</footer>
-<script src="http://www.buenosaires.gob.ar/estilos/BAStrap/js/jquery.js"></script> 
-<script src="http://www.buenosaires.gob.ar/estilos/BAStrap/js/bootstrap.min.js"></script>
+</div></div></main>
+<footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <a class="navbar-brand bac-footer" href="http://www.buenosaires.gob.ar" target="_blank">Buenos Aires Ciudad</a>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <div class="sub-brand">
+                <p>Dirección General de Gobierno Electrónico<br />
+                <span class="text-muted">Ministerio de Modernización</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="http://www.buenosaires.gob.ar/estilos/bastrap3/jquery.min.js"></script>
+    <script src="http://www.buenosaires.gob.ar/estilos/bastrap3/bootstrap.min.js"></script>
 </body>
 </html>
